@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="My_homedepotTest.myHomedepottest.JAVA">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.homedepot.com"/>
+  <parameter name="email" value="endalesolmon@gmail.com"/>
+  <parameter name="pass" value="abcd887856dd"/>
+  <parameter name="zip" value="22079"/>
+  <parameter name="phone" value="5713458835"/>
+    <classes>
+    
+      <class name="My_homedepotTest.myHomedepottest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34668" started-at="2019-07-14T20:48:05Z" finished-at="2019-07-14T20:48:40Z">
+    <groups>
+    </groups>
+    <test name="My_homedepotTest.myHomedepottest.JAVA" duration-ms="34668" started-at="2019-07-14T20:48:05Z" finished-at="2019-07-14T20:48:40Z">
+      <class name="My_homedepotTest.myHomedepottest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:My_homedepotTest.myHomedepottest@1d057a39]" name="beforeClass" is-config="true" duration-ms="10" started-at="2019-07-14T20:48:05Z" finished-at="2019-07-14T20:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:My_homedepotTest.myHomedepottest@1d057a39]" name="f" duration-ms="34635" started-at="2019-07-14T20:48:05Z" finished-at="2019-07-14T20:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.homedepot.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[endalesolmon@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcd887856dd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22079]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5713458835]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:My_homedepotTest.myHomedepottest@1d057a39]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-14T20:48:40Z" finished-at="2019-07-14T20:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- My_homedepotTest.myHomedepottest -->
+    </test> <!-- My_homedepotTest.myHomedepottest.JAVA -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="My_homedepotTest.myHomedepottest.JAVA(failed)">
+    <parameter name="zip" value="22079"/>
+    <parameter name="pass" value="abcd887856dd"/>
+    <parameter name="phone" value="5713458835"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.homedepot.com"/>
+    <parameter name="email" value="endalesolmon@gmail.com"/>
+    <classes>
+      <class name="My_homedepotTest.myHomedepottest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- My_homedepotTest.myHomedepottest -->
+    </classes>
+  </test> <!-- My_homedepotTest.myHomedepottest.JAVA(failed) -->
+</suite> <!-- Failed suite [Suite] -->
